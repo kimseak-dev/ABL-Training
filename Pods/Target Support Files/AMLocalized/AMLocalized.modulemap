@@ -1,0 +1,6 @@
+framework module AMLocalized {
+  umbrella header "AMLocalized-umbrella.h"
+
+  export *
+  module * { export * }
+}

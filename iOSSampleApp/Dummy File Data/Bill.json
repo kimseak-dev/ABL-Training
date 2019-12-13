@@ -1,0 +1,24 @@
+{
+  "ReviewBill": [
+    {
+      "title": "From :",
+      "value": "KHR 0001-12-123456-12 \n Ratha Visoth"
+    },
+    {
+      "title": "Amount :",
+      "value": "KHR 5,000.00"
+    },
+    {
+      "title": "Fee :",
+      "value": "No Fee"
+    },
+    {
+      "title": "Exchange Rate :",
+      "value": "1"
+    },
+    {
+      "title": "Debit Amount :",
+      "value": "-KHR 5,000.00"
+    }
+  ]
+}

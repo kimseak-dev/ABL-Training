@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppLoadingView" customModule="ios_japan" customModuleProvider="target">
+            <connections>
+                <outlet property="messageLabel" destination="s72-2V-x7N" id="dCe-mD-x3z"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.5" contentMode="scaleToFill" id="xr5-5z-ATw">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Irc-bM-CtZ">
+                    <rect key="frame" x="169" y="265" width="37" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="37" id="zcW-i9-y5x"/>
+                        <constraint firstAttribute="height" constant="37" id="ziR-mu-Yiy"/>
+                    </constraints>
+                    <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please wait" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s72-2V-x7N">
+                    <rect key="frame" x="144.5" y="340" width="86" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="wGq-nQ-vmO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+            <constraints>
+                <constraint firstItem="Irc-bM-CtZ" firstAttribute="centerY" secondItem="xr5-5z-ATw" secondAttribute="centerY" constant="-50" id="FP7-MS-Qnd"/>
+                <constraint firstItem="s72-2V-x7N" firstAttribute="top" secondItem="Irc-bM-CtZ" secondAttribute="bottom" constant="38" id="M7t-DF-TGk"/>
+                <constraint firstItem="Irc-bM-CtZ" firstAttribute="centerX" secondItem="xr5-5z-ATw" secondAttribute="centerX" id="cMG-U5-lyK"/>
+                <constraint firstItem="s72-2V-x7N" firstAttribute="centerX" secondItem="Irc-bM-CtZ" secondAttribute="centerX" id="zHi-H1-vkW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="d2E-xR-Iur"/>
+            <point key="canvasLocation" x="-195.5" y="222.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,166 @@
+{
+    
+    "MenuList":[
+        {
+            "title":"Payment",
+            "menuCode":"BillsPayment",
+            "en":"Payment",
+            "kh":"ទូទាត់វិក្កយបត្រ",
+            "la":"ການຊຳລະເງິນ",
+            "cn":"帐单缴付",
+            "icon":"BillsPaymentN",
+            "order":"1",
+            "description":"description",
+            "regType":"1",
+            "prelogin": false
+        },
+        {
+            "title":"QR Payment",
+            "menuCode":"ToanChetPayments",
+            "en":"QR Payment",
+            "kh":"ទូទាត់ទាន់ចិត្ត",
+            "la":"ການຊຳລະທັນໃຈ",
+            "cn":"ToanChet 支付",
+            "icon":"ToanChetPaymentsN",
+            "order":"4",
+            "description":"description",
+            "regType":"1",
+            "prelogin": false
+        },
+        {
+            "title":"Loan Repayment",
+            "menuCode":"LoanRepayment",
+            "en":"Loan Repayment",
+            "kh":"ទូទាត់សំណង",
+            "la":"Loan Repayment",
+            "cn":"新闻",
+            "icon":"LoanRepayment",
+            "order":"9",
+            "description":"description",
+            "regType":"1",
+            "prelogin": false
+            
+
+        },
+        {
+            "title":"Top Up",
+            "menuCode":"MobileTopUp",
+            "en":"Top Up",
+            "kh":"បញ្ចូលប្រាក់ទូរស័ព្ទ",
+            "la":"ການຕື່ມມູນຄ່າໂທ",
+            "cn":"手机充值",
+            "icon":"MobileTopUpN",
+            "order":"3",
+            "description":"description",
+            "regType":"1",
+            "prelogin": false
+        },
+        {
+            "title":"Scan To Pay",
+            "menuCode":"VisaScanToPay",
+            "en":"Scan to Pay",
+            "kh":"ស្កែនទូទាត់វីសា",
+            "la":"Visa Scan to Pay",
+            "cn":"Visa Scan to Pay",
+            "icon":"m-VisaN",
+            "order":"7",
+            "description":"description",
+            "regType":"1",
+            "prelogin": false
+        },
+        {
+            "title":"Bus Payment",
+            "menuCode":"BusPayments",
+            "en":"Bus Payment",
+            "kh":"បង់ថ្លៃឡានក្រុង",
+            "la":"Bus Payments",
+            "cn":"Bus Payments",
+            "icon":"BusPaymentsN",
+            "order":"6",
+            "description":"description",
+            "regType":"1",
+            "prelogin": true
+        },
+        {
+            "title":"Transfer",
+            "menuCode":"FundsTransfer",
+            "en":"Transfer",
+            "kh":"ផ្ទេរប្រាក់",
+            "la":"ການໂອນເງິນ",
+            "cn":"汇款",
+            "icon":"FundsTransferN",
+            "order":"2",
+            "description":"description",
+            "regType":"1",
+            "prelogin": false
+        },
+        {
+            "title":"Mastercard QR",
+            "menuCode":"MastercardQR",
+            "en":"Mastercard QR",
+            "kh":"ម៉ាស្ទ័រកាតឃ្យូអរ",
+            "la":"Mastercard QR",
+            "cn":"Mastercard QR",
+            "icon":"MasterPassN",
+            "order":"5",
+            "description":"description",
+            "regType":"1",
+            "prelogin": false
+            
+        },
+        {
+         
+         "title":"My QR Code",
+         "menuCode":"ToanChetCODE",
+         "en":"My QR Code",
+         "kh":"កូដទាន់ចិត្ត",
+         "la":"​ລະຫັດທັນໃຈ",
+         "cn":"我的ToanChet二维码",
+         "icon":"ToanChetCODEN",
+         "order":"5",
+         "description":"description",
+         "regType":"1",
+         "prelogin": true
+        },
+       {
+           "title":"ATM Location",
+           "menuCode":"LocateUs",
+           "en":"ATM Location",
+           "kh":"ទីតាំងអេធីអឹម",
+           "la":"ຕູ້ເອທີເອັມໃກ້ທີ່ສຸດ",
+           "cn":"尋找我们",
+           "icon":"LocateUsN",
+           "order":"10",
+           "description":"description",
+           "regType":"1",
+           "prelogin": true
+           
+       },
+        {
+                   "title":"Exchange Rate",
+                   "menuCode":"ExchangeRate",
+                   "en":"Exchange Rate",
+                   "kh":"អត្រាប្តូរប្រាក់",
+                   "la":"ອັດ​ຕາ​ແລກ​ປ່ຽນ",
+                   "icon":"ExchangeRateN",
+                   "order":"7",
+                   "description":"description",
+                   "regType":"1",
+                   "prelogin": true
+               },
+        {
+            "title":"Information",
+            "menuCode":"News",
+            "en":"Information",
+            "kh":"ព័ត៌មាន",
+            "la":"ຂ່າວສານ",
+            "cn":"新闻",
+            "icon":"NewsN",
+            "order":"9",
+            "description":"description",
+            "regType":"1",
+            "prelogin": true
+        }
+    ]
+}
+
